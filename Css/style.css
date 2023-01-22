@@ -55,7 +55,7 @@ header nav ul li a{
     padding-bottom: 24px;
 }
 .container_section{
-    max-width: 1088px;
+    max-width: 1068px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -183,6 +183,102 @@ header nav ul li a{
     width: 100%;
     margin-bottom: 27px;
 }
+.people_and{
+   padding: 76px 0 51px 0;
+    background: rgba(204, 204, 204, 0.3);
+}
+.people_and .container{
+    max-width: 1164px;
+    display: flex;
+}
+.people_photo{
+    max-width: 385px;
+    margin-right: 50px;
+}
+.people_photo image{
+    width: 100%;
+}
+.text{
+    max-width: 532px;
+    padding-top: 70px;
+}
+.text h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.text p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.text a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.culture{
+    padding: 76px 0 51px 0;
+    background: rgba(204, 204, 204, 0.6);
+}
+.culture .container{
+    max-width: 1164px;
+    display: flex;
+}
+.culture_text{
+    max-width: 513px;
+    padding-top: 92px;
+    text-align: right;
+}
+.culture_text h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: right;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.culture_text p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: right;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.culture_text a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000
+}
+.people_photo2{
+    max-width: 385px;
+    margin-left: 50px;
+}
+
+
+
 
 
 
