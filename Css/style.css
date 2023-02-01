@@ -203,7 +203,7 @@ header nav ul li a{
     padding-top: 70px;
 }
 .text h4{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -212,7 +212,7 @@ header nav ul li a{
     margin-bottom: 31px;
 }
 .text p{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -221,7 +221,7 @@ header nav ul li a{
     margin-bottom: 40px;
 }
 .text a{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -243,7 +243,7 @@ header nav ul li a{
     text-align: right;
 }
 .culture_text h4{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -253,7 +253,7 @@ header nav ul li a{
     margin-bottom: 31px;
 }
 .culture_text p{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -263,7 +263,7 @@ header nav ul li a{
     margin-bottom: 31px;
 }
 .culture_text a{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -276,6 +276,132 @@ header nav ul li a{
     max-width: 385px;
     margin-left: 50px;
 }
+.features{
+    padding-top: 190px;
+    padding-bottom: 290px;
+}
+.features h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 69px;
+}
+.features .items_description{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 52px;
+}
+.features .items_description .item{
+    width: 33%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 111px;
+}
+.features .items_description .item:before{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 26px;
+    background-color: #21F7EC;
+}
+.features .items_description .item:nth-child(2):before{
+    background-color: #33D3BC;
+}
+.features .items_description .item:nth-child(3):before{
+    background-color: #18A5C6;
+}
+.features .items_description .item:nth-child(4):before{
+    background-color: #D38F62;
+}
+.features .items_description .item:nth-child(5):before{
+    background-color: #F94C43;
+}
+.features .items_description .item:nth-child(6):before{
+    background-color: #D399FF;
+}
+.features h4{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000
+}
+.form_imp{
+    padding-top: 79px;
+    padding-bottom: 88px;
+}
+.form_imp .container{
+    max-width: 570px;
+    text-align: center;
+}
+.paskudych{
+    display: flex;
+    justify-content: space-between;
+}
+.paskudych input{
+    max-width: 153px;
+    padding: 12px 0px 11px 8px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A0A0A0;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    margin-right: 60px;
+}
+.place_text{
+    max-width: 366px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.f_name_s{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A0A0A0;
+
+}
+.form_imp .container h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 9px;
+}
+.form_imp .container p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 26px;
+}
+
 
 
 
