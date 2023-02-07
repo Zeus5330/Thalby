@@ -353,11 +353,12 @@ header nav ul li a{
 .paskudych{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 18px;
 }
-.paskudych input{
+.paskudych input {
     max-width: 153px;
     padding: 12px 0px 11px 8px;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -371,6 +372,20 @@ header nav ul li a{
     max-width: 366px;
     margin: auto;
     box-sizing: border-box;
+}
+
+.paskudych_two input{
+    max-width: 366px;
+    width: 100%;
+    padding: 13px 0px 10px 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A0A0A0;
+    border: 1px solid #000000;
+
 }
 .f_name_s{
     font-family: 'Roboto';
@@ -400,6 +415,61 @@ header nav ul li a{
     text-align: center;
     color: #000000;
     margin-bottom: 26px;
+}
+footer{
+    padding: 51px 148px 16px 148px;
+    background-color: black;
+}
+.foot_logo{
+    max-width: 487px;
+}
+.foot_logo img{
+    margin-bottom: 37px;
+}
+.foot_logo ul {
+    display: flex;
+    list-style: none;
+}
+.foot_logo ul a{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.top_div{
+    padding: 56px 20px 25px;
+    max-width: 1144px;
+    display: flex;
+    justify-content: space-between;
+}
+.text_foot{
+    display: flex;
+    justify-content: space-between;
+}
+.text_foot ul:first-of-type{
+    margin-right: 72px;
+}
+.text_foot a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.text_foot ul li {
+    margin-bottom: 12px;
+}
+.text_foot li:first-of-type{
+    margin-bottom: 36px;
+}
+footer p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 
